@@ -1,0 +1,66 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pbtec.app.barbeariaclub.fragments.HomeLogout"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+
+    <ScrollView
+        android:id="@+id/scroll_v"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center"
+        android:layout_gravity="center_horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                card_view:cardCornerRadius="5dp">
+
+                <RelativeLayout
+                    android:id="@+id/relat_cardview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/botão"
+                    android:layout_gravity="start">
+
+                    <ImageView
+                        android:id="@+id/foto_club"
+                        android:layout_width="wrap_content"
+                        android:layout_height="240dp"
+                        android:layout_centerHorizontal="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/clube"/>
+
+                    <WebView
+                        android:id="@+id/web_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignRight="@+id/foto_club"
+                        android:layout_below="@+id/foto_club"/>
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <Button
+                android:id="@+id/bt_quero_cadastrar"
+                android:layout_alignRight="@+id/card_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/branco"
+                android:background="@drawable/style_button"
+                android:layout_below="@+id/card_view"
+                android:text="QUERO ME CADASTRAR"/>
+        </RelativeLayout>
+    </ScrollView>
+</FrameLayout>

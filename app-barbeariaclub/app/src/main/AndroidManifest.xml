@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pbtec.app.barbeariaclub">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_barbeariaclub"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".splashscreen.Splash_Screen"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".dialogs.MudarSenha"
+            android:label="@string/title_activity_mudar_senha"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".dialogs.Calendario"
+            android:label="@string/title_activity_calendario"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".dialogs.ListaHoraDisponivel"
+            android:label="@string/title_activity_lista_hora_disponivel"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".dialogs.ConfirmarAgendamento"
+            android:label="@string/title_activity_confirmar_agendamento"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".arrayadapter.ArrayAdapterAtendimento"
+            android:label="@string/title_activity_array_adapter_atendimento"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fragments.TelaConstrucao"
+            android:label="@string/title_activity_tela_construcao"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".telafuncionario.MainActivityFuncionario" />
+        <activity
+            android:name=".Main3Activity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Main5Activity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

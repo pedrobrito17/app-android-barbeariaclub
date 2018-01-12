@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Minha conta">
+        <menu>
+            <item
+                android:id="@+id/perfil"
+                android:icon="@drawable/perfil48"
+                android:checkable="true"
+                android:title="Perfil" />
+            <item
+                android:id="@+id/ag_horario"
+                android:icon="@drawable/horario48"
+                android:checkable="true"
+                android:title="Agendar horário" />
+            <item
+                android:id="@+id/agenda"
+                android:icon="@drawable/calendar48"
+                android:checkable="true"
+                android:title="Agenda" />
+        </menu>
+    </item>
+
+
+
+    <group
+        android:id="@+id/group_barbearia2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/a_barbearia"
+            android:icon="@drawable/barbearia48"
+            android:title="A barbearia" />
+        <item
+            android:id="@+id/horario_func"
+            android:icon="@drawable/funcionamento48"
+            android:title="Horário de funcionamento" />
+        <item
+            android:id="@+id/precos"
+            android:icon="@drawable/dinheiro32"
+            android:title="Preços" />
+        <item
+            android:id="@+id/profissionais"
+            android:icon="@drawable/profissionais48"
+            android:title="Profissionais" />
+        <item
+            android:id="@+id/promocao"
+            android:icon="@drawable/promocao48"
+            android:title="Promoções" />
+    </group>
+
+
+
+    <group
+        android:id="@+id/group_sair2"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/sair"
+            android:icon="@drawable/saida48"
+            android:title="Sair" >
+        </item>
+    </group>
+
+</menu>

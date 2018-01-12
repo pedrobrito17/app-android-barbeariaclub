@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group_barbearia"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/a_barbearia"
+            android:icon="@drawable/barbearia48"
+            android:title="A barbearia" />
+        <item
+            android:id="@+id/horario_func"
+            android:icon="@drawable/funcionamento48"
+            android:title="Horário de funcionamento" />
+        <item
+            android:id="@+id/precos"
+            android:icon="@drawable/dinheiro32"
+            android:title="Preços" />
+        <item
+            android:id="@+id/profissionais"
+            android:icon="@drawable/profissionais48"
+            android:title="Profissionais" />
+        <item
+            android:id="@+id/promocao"
+            android:icon="@drawable/promocao48"
+            android:title="Promoções" />
+    </group>
+
+
+
+    <group
+        android:id="@+id/group_sair"
+        android:checkableBehavior="none">
+
+            <item
+                android:id="@+id/sair"
+                android:icon="@drawable/saida48"
+                android:title="Sair" />
+
+    </group>
+
+
+
+</menu>

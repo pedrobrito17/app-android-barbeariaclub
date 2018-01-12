@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">BarbeariaClub</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="quero_cadastrar">QUERO ME CADASTRAR</string>
+    <string name="cadastrar">CADASTRAR</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_mudar_senha">MudarSenha</string>
+    <string name="title_activity_calendario">Calendario</string>
+    <string name="title_activity_lista_hora_disponivel">ListaHoraDisponivel</string>
+    <string name="title_activity_confirmar_agendamento">ConfirmarAgendamento</string>
+    <string name="title_activity_array_adapter_atendimento">ArrayAdapterAtendimento</string>
+    <string name="title_activity_tela_construcao">TelaConstrucao</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_splash__screen">Splash_Screen</string>
+    <string name="texto">A Barbearia Club se faz presente no mercado de São Luis/MA com objetivo de oferecer serviços diferenciados, no que diz respeito a beleza masculina, dentro de um ambiente confortvel e pensado para o homem dos  tempos atuais. Nossa sede fica localizada no Calhau e tem facil  acesso, possuimos de amplo estrutura para antender nossos clientes.</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="title_activity_main5">Main5Activity</string>
+</resources>

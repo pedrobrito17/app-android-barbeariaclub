@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pbtec.app.barbeariaclub.fragments.FazerLogin"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        card_view:contentPadding="10dp"
+        android:id="@+id/card_view3"
+        android:layout_gravity="center_horizontal"
+        card_view:cardCornerRadius="5dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:ems="10"
+                android:hint="E-mail"
+                android:id="@+id/login_email"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:hint="Senha"
+                android:id="@+id/login_senha"
+                android:layout_below="@+id/login_email"
+                android:layout_centerHorizontal="true" />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:id="@+id/entrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/style_button"
+        android:textColor="@color/branco"
+        android:text="Entrar"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:layout_below="@+id/card_view3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/esqueci_senha"
+        android:text="ESQUECI MINHA SENHA"
+        android:textSize="11sp"
+        android:textColor="@color/branco"
+        android:layout_below="@+id/entrar"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,119 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pbtec.app.barbeariaclub.fragments.Perfil"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view4"
+                card_view:contentPadding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                card_view:cardCornerRadius="5dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:ems="10"
+                        android:id="@+id/nome"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textEmailAddress"
+                        android:ems="10"
+                        android:id="@+id/email"
+                        android:layout_below="@+id/nome"
+                        android:layout_alignStart="@+id/nome" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="phone"
+                        android:ems="10"
+                        android:id="@+id/ddd"
+                        android:maxLength="2"
+                        android:layout_below="@+id/email"
+                        android:layout_alignParentStart="true" />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="phone"
+                        android:maxLength="9"
+                        android:id="@+id/telefone"
+                        android:layout_alignBottom="@+id/ddd"
+                        android:layout_alignParentEnd="true"
+                        android:layout_toEndOf="@+id/ddd" />
+
+
+                    <CheckBox
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Gostaria de receber e-mail comunicando novidades e promoções"
+                        android:textColor="@color/letra"
+                        android:checked="true"
+                        android:id="@+id/receber_emails"
+                        android:layout_below="@+id/telefone"
+                        android:layout_alignParentStart="true"
+                        android:paddingBottom="20dp"
+                        android:paddingTop="20dp"/>
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/card_view4"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/alterar_senha"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/style_button"
+                    android:textColor="@color/branco"
+                    android:text="ALTERAR SENHA"
+                    android:layout_below="@+id/receber_emails" />
+
+                <Button
+                    android:id="@+id/confirmar"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/style_button"
+                    android:textColor="@color/branco"
+                    android:text="CONFIRMAR"
+                    android:layout_below="@+id/receber_emails"
+                    android:layout_toRightOf="@+id/alterar_senha"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

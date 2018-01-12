@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/pedrobrito/AndroidStudioProjects/BarbeariaClub/ksoap2-android-assembly-2.5.8-jar-with-dependencies/ksoap2-android-assembly-2.5.8-jar-with-dependencies.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d6e6d14301616c866b7eff210ece6579299417ec">
+        <dex dex="/home/pedrobrito/AndroidStudioProjects/BarbeariaClub/app/build/intermediates/pre-dexed/debug/ksoap2-android-assembly-2.5.8-jar-with-dependencies_5f37f1bf5d2557bccdc527706d668060b4733bea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/pedrobrito/.android/build-cache/7d6873a0fb2a9bf8021e130ff5e40a1b45fce81d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="/home/pedrobrito/AndroidStudioProjects/BarbeariaClub/app/build/intermediates/pre-dexed/debug/classes_b7e841ca13aee188aa2177a140e890cf1dc5d0a7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/pedrobrito/.android/build-cache/2a80cb1f5cc6c039631de330a8e50cf98f93d7aa/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="/home/pedrobrito/AndroidStudioProjects/BarbeariaClub/app/build/intermediates/pre-dexed/debug/classes_31fac4e5472bb8c40d0a3d02c3901c0e74ccc44f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/pedrobrito/.android/build-cache/a074765579cc7c4c35bc12baed93dd6618f3d3f3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="787871951412550519b0222aba3c9df4cea49875">
+        <dex dex="/home/pedrobrito/AndroidStudioProjects/BarbeariaClub/app/build/intermediates/pre-dexed/debug/classes_82dc9dff2ce274acefaa2082cb5590de5b6234c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/pedrobrito/Imagens/android-sdk-linux/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/home/pedrobrito/AndroidStudioProjects/BarbeariaClub/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_3c02c0d76a2dab798694f925305bd77061fb7f81.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/pedrobrito/.android/build-cache/8e8d64d375295b78108b26b3e8ccc730daf22e0a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8dd49930e4f9dde1a42d37e362b9fea8b1b69c0d">
+        <dex dex="/home/pedrobrito/AndroidStudioProjects/BarbeariaClub/app/build/intermediates/pre-dexed/debug/classes_066d7af633e9a1e9fc48ae0fb93370ebf93c1bf3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/pedrobrito/Imagens/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/24.1.1/support-annotations-24.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="/home/pedrobrito/AndroidStudioProjects/BarbeariaClub/app/build/intermediates/pre-dexed/debug/support-annotations-24.1.1_0f5627efd68bccdcc3b7299b60cf8e0bc0ec02de.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/pedrobrito/.android/build-cache/03f8f1948fb042647e1f80579d17f6e8fbb83534/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="/home/pedrobrito/AndroidStudioProjects/BarbeariaClub/app/build/intermediates/pre-dexed/debug/classes_595f50b6350dd8cc37320cd195aba953aef684bc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/pedrobrito/.android/build-cache/03f8f1948fb042647e1f80579d17f6e8fbb83534/output/jars/libs/internal_impl-24.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="/home/pedrobrito/AndroidStudioProjects/BarbeariaClub/app/build/intermediates/pre-dexed/debug/internal_impl-24.1.1_46b7fa7ac23552157b4d69104050bd4f1ccf2514.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/pedrobrito/.android/build-cache/3a62ae1044214305019430a994224d5073a87f69/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="/home/pedrobrito/AndroidStudioProjects/BarbeariaClub/app/build/intermediates/pre-dexed/debug/classes_dd1eb100d05cf1f7873a7eece305bb8e81b972c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/pedrobrito/.android/build-cache/6a636d61cf278a2b964aa566acc272bc6b103292/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/home/pedrobrito/AndroidStudioProjects/BarbeariaClub/app/build/intermediates/pre-dexed/debug/classes_1ca0864ff51959fee3386a989384a51febb2f10e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/pedrobrito/.android/build-cache/4dcfef63e828063dfbe6f9388dabf3326d446916/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e195bd694d5389acfba27ff4fdfa64c4c65b2c05">
+        <dex dex="/home/pedrobrito/AndroidStudioProjects/BarbeariaClub/app/build/intermediates/pre-dexed/debug/classes_a2e882a0b7a6905d347a8fc5500ff24354bcec38.jar" />
+    </item>
+
+</items>
